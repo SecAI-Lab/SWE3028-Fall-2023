@@ -1,2 +1,0 @@
-# Documents in Proposal Folder
-
