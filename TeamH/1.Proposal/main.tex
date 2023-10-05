@@ -1,0 +1,79 @@
+% This is samplepaper.tex, a sample chapter demonstrating the
+% LLNCS macro package for Springer Computer Science proceedings;
+% Version 2.20 of 2017/10/04
+%
+\documentclass[runningheads]{llncs}
+%
+\usepackage{graphicx}
+\usepackage{lipsum}
+\usepackage{kotex}
+\usepackage{url}
+\usepackage{indentfirst}
+\usepackage{bibentry}
+\usepackage{wrapfig}
+
+% \bibliographystyle{plainnat}
+\nobibliography*
+\bibliographystyle{splncs04}
+% Used for displaying a sample figure. If possible, figure files should
+% be included in EPS format.
+%
+% If you use the hyperref package, please uncomment the following line
+% to display URLs in blue roman font according to Springer's eBook style:
+% \renewcommand\UrlFont{\color{blue}\rmfamily}
+
+\begin{document}
+%
+\title{Stock Price Prediction System\thanks{Supported by LINC}}
+%
+%\titlerunning{Abbreviated paper title}
+% If the paper title is too long for the running head, you can set
+% an abbreviated paper title here
+%
+\author{Chanyoung Lee\inst{1}{2019313902} \and
+Yujin Seo\inst{2}{2018314589} \and
+Donghun Jung\inst{3}{2020312141}}
+%
+% \authorrunning{F. Author et al.}
+% First names are abbreviated in the running head.
+% If there are more than two authors, 'et al.' is used.
+%
+\institute{
+Sungkyunkwan University, Computer Science and Engineering, Republic of Korea \and
+Sungkyunkwan University, Department of Mathematics, Republic of Korea \and
+Sungkyunkwan University, Department of Physcis, Republic of Korea 
+% Springer Heidelberg, Tiergartenstr. 17, 69121 Heidelberg, Germany
+% \email{lncs@springer.com}\\
+% \url{http://www.springer.com/gp/computer-science/lncs} \and
+% ABC Institute, Rupert-Karls-University Heidelberg, Heidelberg, Germany\\
+% \email{\{abc,lncs\}@uni-heidelberg.de}
+}
+%
+\maketitle              % typeset the header of the contribution
+%
+\begin{abstract}
+\input{Section/Abstract.tex}
+\end{abstract}
+%
+%
+%
+\section{Introduction}
+\label{sec:Introduction}
+\input{Section/Introduction.tex}
+
+\section{Background and Related Works}
+\label{sec:BackgroundAndRelatedWorks}
+\input{Section/Background_and_RelatedWorks.tex}
+
+\section{Problem Statement and Proposed Solution}
+\label{sec:ProblemStatementAndProposedSolution}
+\input{Section/ProblemStatement_and_ProposedSolution.tex}
+
+\section{Planning in Detail}
+\label{sec:PlanningInDetail}
+\input{Section/Planning_in_Detail.tex}
+
+
+\bibliography{reference}
+
+\end{document}
