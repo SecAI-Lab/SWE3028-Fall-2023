@@ -30,7 +30,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
+  circular_menu: ^2.0.1
+  flex_color_picker: ^3.0.0
+  flutter_calendar_carousel: ^2.4.1
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
