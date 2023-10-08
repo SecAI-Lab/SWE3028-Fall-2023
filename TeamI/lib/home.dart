@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-import 'colorpicker.dart';
+// import 'colorpicker.dart';
 import 'package:intl/intl.dart' show DateFormat;
 // import 'package:flutter_gradients/flutter_gradients.dart';
-import 'circlur_menu.dart';
+// import 'circlur_menu.dart';
 
 void main() {
   runApp(MaterialApp(home: homeApp()));
@@ -141,10 +141,10 @@ class _homeAppState extends State<homeApp> {
                       color: Color(0xff606060),
                     ),
                     onPressed: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(builder: (context) => ColorPickerDemo()),
-                      );
+                      // Navigator.push(
+                      //   context,
+                      //   MaterialPageRoute(builder: (context) => ColorPickerDemo()),
+                      // );
                     }),
               ],
             ),
@@ -167,12 +167,14 @@ class _homeAppState extends State<homeApp> {
   Future<void> _navigateAndDisplaySelection(BuildContext context) async {
     // Navigator.push returns a Future that completes after calling
     // Navigator.pop on the Selection Screen.
-    final result = await Navigator.push(
-      context,
-      MaterialPageRoute(builder: (context) => addApp()),
-    ).then((value){
-      if (value!=null){addGradient(value);}
-    });
+
+    // final result = await Navigator.push(
+    //   context,
+    //   MaterialPageRoute(builder: (context) => addApp()),
+    // ).then((value){
+    //   if (value!=null){addGradient(value);}
+    // }
+    // );
 
     // When a BuildContext is used from a StatefulWidget, the mounted property
     // must be checked after an asynchronous gap.
