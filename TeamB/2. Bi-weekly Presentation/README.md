@@ -19,8 +19,8 @@
 
 👉 Technical Background
 
-  🫵 Bert 
-  
-  🫵 Sentence Transformer
+> 🫵 Bert
+>
+> 🫵 Sentence Transformer
 
 👉 Process of Front/End Development
