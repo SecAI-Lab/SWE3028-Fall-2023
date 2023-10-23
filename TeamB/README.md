@@ -7,13 +7,17 @@
 
 ## Team 
 👋 Kangsan Kim 
-    👉 Team Leader, Front-End Developer
+
+* Team Leader, Front-End Developer
 
 👋 Seungbin Yang
-    👉 AI Engineer
+    
+* AI Engineer
 
 👋 Jinho Park
-    👉 Data Engineer
+
+* Data Engineer
 
 👋 Changmin Jun
-    👉 Back-End Developer
+
+* Back-End Developer
