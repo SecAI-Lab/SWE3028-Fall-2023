@@ -1,1 +1,1 @@
-# [empty-seat Web Page](empty-seat.tech)
+# [empty-seat Web Page](http://empty-seat.tech)
